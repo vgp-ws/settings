@@ -1,9 +1,20 @@
 {
+    //"maven.executable.options": "-P6",
+    "maven.view": "flat",
+    "java.project.sourcePaths": [],
+    "java.dependency.packagePresentation": "hierarchical",
     "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+    //"docwriter.language": "Russian",
+    "terminal.integrated.env.windows":
+    {
+        "name-container-tomcat": "automatics2maven-tomcat-1",
+    },
     "maven.terminal.customEnv": [
         {
             "environmentVariable": "JAVA_HOME",
-            "value": "D:/Programs/Java/jdk-21.0.2",
+           // "value": "D:/Programs/Java/jdk1.8.0", /*1.8*/
+            "value": "D:/Programs/Java/jdk-17.0.3.1", /*17*/
         },
         {
             "environmentVariable": "M2_HOME",
@@ -16,11 +27,25 @@
     ],
     "java.configuration.runtimes": [
         {
-            "name": "JavaSE-21",
-            "path": "D:/Programs/Java/jdk-21.0.2",
+            "name": "JavaSE-1.6",
+            "path": "D:/Programs/Java/jdk1.6.0_45"
+        },
+        {
+            "name": "JavaSE-1.7",
+            "path": "D:/Programs/Java/java-se-7u75-ri"
+        },
+        {
+            "name": "JavaSE-1.8",
+            "path": "D:/Programs/Java/jdk1.8.0"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "D:/Programs/Java/jdk-17.0.3.1",
             "default": true
-        }    
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "D:/Programs/Java/jdk-21.0.2"
+        }
     ],
-    "java.dependency.packagePresentation": "hierarchical",
-    "java.debug.settings.onBuildFailureProceed": true
 }
