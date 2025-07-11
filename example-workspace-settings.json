@@ -1,0 +1,26 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "D:/Programs/Java/jdk-21.0.2",
+        },
+        {
+            "environmentVariable": "M2_HOME",
+            "value": "D:/Programs/#CreateDockerImages/Maven/maven385"
+        },
+        {
+            "environmentVariable": "M2",
+            "value": "D:/Programs/#CreateDockerImages/Maven/maven385/bin"
+        },
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "D:/Programs/Java/jdk-21.0.2",
+            "default": true
+        }    
+    ],
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.debug.settings.onBuildFailureProceed": true
+}
